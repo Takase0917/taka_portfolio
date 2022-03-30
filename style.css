@@ -34,13 +34,13 @@ nav ul{
 }
 nav ul li a{
     margin: 30px;
-    font-family: myriad pro regular;
+    font-family: Arial, Helvetica, sans-serif;
     color: #505050;
     font-size: 15px;
     font-weight: 700;
 }
 .logo{
-    font-family: RoadTest;
+    font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     font-size: 22px;
 }
@@ -49,21 +49,21 @@ nav ul li a{
     color: #2d2a2a;
 }
 .text-container p:nth-child(1){
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
 }
 .text-container p:nth-child(2){
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     color: #1a1a1a;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
-    font-family: myriad pro regular;
-    color: #403e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #131212;
     font-size: 30px;
     line-height: 30px;
 }
@@ -81,7 +81,7 @@ nav ul li a{
     width: 130px;
     height: 42px;
     border-radius: 10px;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
     outline: none;
@@ -119,14 +119,15 @@ button:active{
     align-items: center;
 }
 .about-container img{
-    height: 250px;
+    height: 300px;
 }
 .about-text{
     width: 550%;
 }
 .about-text p:nth-child(1){
-    color: #403e3e;
-    font-family: myriad pro;
+
+    color: #131314;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 23px;
     line-height: 0px;
@@ -134,14 +135,14 @@ button:active{
 .about-text p:nth-child(2){
     color: #3e3d3d;
     font-size: 13px;
-    font-family: myriad pro;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 5px;
 }
 .about-text p:nth-child(3),
 .about-text p:nth-child(4){
     color: #7e7d7d;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 .about-text button{
@@ -152,4 +153,40 @@ button:active{
     border: none;
     font-family: calibri;
     background-color: #262525;
+}
+.projects{
+    height: 600px;
+    background-color: #FFFFFF;
+    padding: 2% 10% 0px 10%;
+}
+.projects-text p:nth-child(1){
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1d1414;
+    font-size: 40px;
+
+}
+.projects-text p:nth-child(2){
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1d1414;
+    font-size: 15px;
+    line-height: 5px;
+}
+.box-1,.box-2{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 6px 2px 16px rgba(0,0,0,0.4);
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    background-image: url("../taka_portfolio/imgges/icon-gd223341ca_1920.png");
+}
+.box-2{
+    background-image: url("../taka_portfolio/imgges/Asteroids-arcadegame.jpg");
 }
