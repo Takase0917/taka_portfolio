@@ -179,14 +179,64 @@ button:active{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 6px 2px 16px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .box-container{
     display: flex;
     justify-content: space-between;
 }
 .box-1{
-    background-image: url("../taka_portfolio/imgges/icon-gd223341ca_1920.png");
+    background-image: url("http://personal.rhul.ac.uk/zkac/332/Screenshot%202022-03-30%20at%2015.48.47.png");
 }
 .box-2{
-    background-image: url("../taka_portfolio/imgges/Asteroids-arcadegame.jpg");
+    background-image: url("http://personal.rhul.ac.uk/zkac/332/Asteroids-arcadegame.jpg");
+}
+.box-1 span,
+.box-2 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.box-1 p:nth-child(2){
+    color: #180202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.box-2 p:nth-child(2){
+    color: #e3e9b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.box-1 p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0px 0px 20px 0px;
+    color: #4d4646;
+}
+.box-2 p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0px 0px 20px 0px;
+    color: #110e0e;
+}
+.box-1 button,
+.box-2 button{
+    width: 100px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
